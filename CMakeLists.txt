@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.30)
-project(hello_css343)
+project(css343_homework_0403_Terminate)
 
 set(MAIN_EXECUTABLE_NAME "${PROJECT_NAME}")
 set(TEST_EXECUTABLE_NAME "${PROJECT_NAME}Test")
@@ -13,7 +13,7 @@ set(TEST_SRC_DIR test)
 
 # Source Files
 set(MAIN_SRC_FILE src/main.cpp)
-set(MAIN_SRC_FILES)
+set(MAIN_SRC_FILES src/terminate.cpp)
 set(TEST_SRC_FILES test/tests.cpp)
 
 add_executable(${MAIN_EXECUTABLE_NAME})

@@ -1,3 +1,3 @@
-# Simple C++ Homework Template
+# April 4th Homework Terminate!
 
-This template provides a simple setup with CMake, GoogleTest, and Valgrind.
+[Assignment](https://canvas.uw.edu/courses/1817334/assignments/10215292?module_item_id=23392822)
