@@ -1,6 +1,6 @@
-#include <iostream>
+#include <terminate.h>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    terminate("Cyan", TerminateFlags::ZAP_WITH_LAZER | TerminateFlags::ESCORT_OUT_IMMEDIATE);
     return 0;
 }
