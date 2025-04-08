@@ -23,4 +23,5 @@ void terminate(const std::string &name, uint32_t flags) {
     if (flags & TerminateFlags::ZAP_WITH_LAZER) {
         std::cout << " ZAAPP!!";
     }
+    std::cout << '\n';
 }

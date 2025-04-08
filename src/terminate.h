@@ -1,3 +1,6 @@
+#ifndef TERMINATE_H
+#define TERMINATE_H
+
 #include <string>
 #include <cstdint>
 
@@ -13,3 +16,5 @@ namespace TerminateFlags {
 /// Homework function
 // FIXME: untestable
 void terminate(const std::string &name, uint32_t flags);
+
+#endif // TERMINATE_H
